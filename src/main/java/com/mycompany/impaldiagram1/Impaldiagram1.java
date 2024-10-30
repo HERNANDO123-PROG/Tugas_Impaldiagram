@@ -39,6 +39,7 @@ public class Impaldiagram1 {
         // Membuat objek Mio sebagai subclass AutoCarRpl
         Mio mio = new Mio("Bensin", 80, mesin);
         mio.start(fuel);  // Menggunakan fuel sebagai dependency
+        mio.setRoda(roda);
         mio.drive();
         mio.bahanBakar();
         mio.kecepatan();
